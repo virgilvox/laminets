@@ -97,17 +97,6 @@ from visualization.field_animation import animate_field_evolution
 animate_field_evolution(model.last_field)
 ```
 
-## Repository Structure
-
-| Folder | Purpose |
-|:---|:---|
-| `laminet_micro/` | Core model and field classes |
-| `datasets/` | Synthetic dataset scripts |
-| `examples/` | Training, evaluation, visualization |
-| `training/` | Utilities (loss functions, helpers) |
-| `visualization/` | Field animation and static plotting |
-| `LICENSE` | MIT License |
-| `requirements.txt` | Dependencies |
 
 ## Vision
 
