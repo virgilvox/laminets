@@ -88,6 +88,34 @@ This repository provides:
   - Technical whitepaper
   - Implementation guides
 
+## Results from 10K Training
+
+Using the optimized training notebook, we've trained a Laminet model on the 10K dataset with significantly reduced training time. Here are some of the results:
+
+### Training Performance
+
+<img src="images/loss_curve_optimized.png" width="600">
+
+The loss curve shows stable convergence with the optimized training approach, achieving good results within a reasonable timeframe.
+
+### Semantic Field Visualization
+
+<img src="images/field_static_optimized.png" width="600">
+
+This visualization shows the semantic field structure after training on 10K samples. Note how concepts cluster into meaningful regions, with related concepts positioned close to each other in the field.
+
+### Concept Navigation
+
+<img src="images/concept-navigation-10k.png" width="600">
+
+This demonstrates how the model navigates between related concepts through the semantic field. The paths show how one concept evolves into another through the field's dynamics.
+
+### Chat Example
+
+<img src="images/chat-result-10k.png" width="600">
+
+A sample conversation with the 10K-trained model, showing its ability to generate contextually relevant responses based on field evolution rather than traditional token prediction.
+
 ## Installation
 
 ```bash
